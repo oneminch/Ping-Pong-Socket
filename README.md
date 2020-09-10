@@ -4,6 +4,7 @@ The client will send null terminated ASCII strings to the server using TCP and t
 **Compiling**
 
 `gcc -o client client.c pingpong.c`
+
 `gcc -o server server.c pingpong.c`
 
 **Running**
