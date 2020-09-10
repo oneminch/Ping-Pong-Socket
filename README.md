@@ -12,4 +12,4 @@ gcc -o server server.c pingpong.c
 2) On another shell: ./cilent 10000
 
 **Demo**
-![Demo Image](/demo.jpg)
+![Demo Image](/examples/demonstration.jpg)
