@@ -3,13 +3,13 @@ The client will send null terminated ASCII strings to the server using TCP and t
 
 **Compiling**
 
-gcc -o client client.c pingpong.c
-gcc -o server server.c pingpong.c
+`gcc -o client client.c pingpong.c`
+`gcc -o server server.c pingpong.c`
 
 **Running**
 
-1) On one shell: ./server
-2) On another shell: ./cilent 10000
+1) On a shell: `./server`
+2) On a shell on another window: `./cilent 10000`
 
 **Demo**
 ![Demo Image](/examples/demonstration.jpg)
